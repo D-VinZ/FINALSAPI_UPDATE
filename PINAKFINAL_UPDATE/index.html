@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+</head>
+<body>
+
+    <video autoplay loop muted plays-inline class="back-video">
+
+        <source src="vid/bg.mp4" type="">
+    </video>
+    <div class="container">
+        <div id="slide">
+            <div class="item" style="background-image: url(/Imgs/Sun..jpg);">
+                <div class="content">
+                    <div class="name">Sun</div>
+                    <div class="des">The Celestial Heart of our Solar Symphony.</div>
+                    <button onclick="seeMore('Sun')">See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(/Imgs/mercury.jpg);">
+                <div class="content">
+                    <div class="name">Mercury</div>
+                    <div class="des">The Swift and Scorched Planet</div>
+                    <button onclick="seeMore('Mercury')">See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(/Imgs/venus.jpg);">
+                <div class="content">
+                    <div class="name">Venus</div>
+                    <div class="des">Earth's Radiant Sister</div>
+                    <button onclick="seeMore('Venus')">See more</button>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(/Imgs/earth.jpg);">
+                <div class="content">
+                    <div class="name">Earth</div>
+                    <div class="des">Our Blue Oasis in Space</div>
+                    <button onclick="seeMore('Earth')">See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(/Imgs/mars.jpg);">
+                <div class="content">
+                    <div class="name">Mars</div>
+                    <div class="des">The Red Frontier Beckons</div>
+                    <button onclick="seeMore('Mars')">See more</button>
+                </div>
+            </div>
+            <div class="item" style="background-image: url(/Imgs/jupiter.jpg);">
+                <div class="content">
+                    <div class="name">Jupiter</div>
+                    <div class="des">Giant Guardian of the Cosmos</div>
+                    <button onclick="seeMore('Jupiter')">See more</button>
+                </div>
+            </div>
+      
+            <div class="item" style="background-image: url(/Imgs/saturn.jpg);">
+                <div class="content">
+                    <div class="name">Saturn</div>
+                    <div class="des">The Ringed Jewel of the Solar System</div>
+                    <button onclick="seeMore('Saturn')">See more</button>
+                </div>
+            </div>
+      
+            <div class="item" style="background-image: url(/Imgs/uranus.jpg);">
+                <div class="content">
+                    <div class="name">Uranus</div>
+                    <div class="des">The Sideways Spin in Celestial Blue</div>
+                    <button onclick="seeMore('Uranus')">See more</button>
+                </div>
+            </div>
+      
+            <div class="item" style="background-image: url(/Imgs/neptune.jpg);">
+                <div class="content">
+                    <div class="name">Neptune</div>
+                    <div class="des">Mystical Blue Voyager of the Deep Cosmos</div>
+                    <button onclick="seeMore('Neptune')">See more</button>
+                </div>
+            </div>
+
+            <div class="item" style="background-image: url(/Imgs/pluto.jpg);">
+                <div class="content">
+                    <div class="name">Pluto</div>
+                    <div class="des">The Distant Dwarf with Cosmic Charm</div>
+                    <button onclick="seeMore('Pluto')">See more</button>
+                </div>
+            </div>
+      
+        </div>
+        <div class="buttons">
+            <button id="prev"><i class="fa-solid fa-angle-left"></i></button>
+            <button id="next"><i class="fa-solid fa-angle-right"></i></button>
+        </div>
+    </div>
+
+
+
+    <div id="myModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeModal()">&times;</span>
+            <div id="modalContent"></div>
+        </div>
+    </div>
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+   
+    <script src="script.js"></script>
+    <script src="function.js"></script>
+</body>
+</html>
+  
